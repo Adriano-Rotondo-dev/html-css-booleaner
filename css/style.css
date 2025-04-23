@@ -8,12 +8,15 @@
 body {
     font-family:'Times New Roman', Times, serif;
 }
-ul {
-    margin-left: 20px; 
+main {
+    margin-left:5px;
 }
-ul li {
-    list-style-type: disc;
-
+ul {
+    margin-left:15px; 
+}
+/*Header Secondario*/
+.notehead {
+    margin-left:5px;
 }
 /*Banner*/
 .banner {    
@@ -24,7 +27,7 @@ ul li {
 .banner img {
     height: 100px;
 }
-
+/* Table */
 /* Text */
 address {
     font-style: normal;
@@ -41,18 +44,26 @@ address {
 .highlight {
     background-color: yellow;
 }
-
+.footer {
+    color:white;
+    font-weight: bold;
+    font-size:larger;
+    padding: 5px;
+    }
 /*Footer */
 
 .monitor {
+   display:block;
    background-image: url(../img/monitor.jpg);
    height: 200px;
    width: 200px;
-   color:white;
+   margin: 5px;
 }
 .graph {
+    display:block;
     background-image: url(../img/graph.jpg);
     height: 200px;
-    width:200px;
-    color:white;
+    width: 200px;
+    margin:5px;
+    
     }
