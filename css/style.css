@@ -9,11 +9,12 @@
     max-width: 1080px;
    
 }
-
+body {
+    font-family:'Times New Roman', Times, serif;
+}
 /*Banner*/
 .banner {    
     background-color:#479EFE;    
-    height:90px; 
     background-image: url(../img/pattern.png);
     background-size:30%;    
 }
@@ -21,4 +22,16 @@
     height: 100px;
 }
 
-
+/* Text */
+address {
+    font-style: normal;
+}
+.grey {
+    color: grey;
+}
+.small {
+    size:15px;
+}
+.booleaner {
+    color:rgb(0, 174, 255);
+}
