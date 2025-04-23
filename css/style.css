@@ -5,12 +5,15 @@
     box-sizing:border-box;
 }
 /* Utilities */
-.container {
-    max-width: 1080px;
-   
-}
 body {
     font-family:'Times New Roman', Times, serif;
+}
+ul {
+    margin-left: 20px; 
+}
+ul li {
+    list-style-type: disc;
+
 }
 /*Banner*/
 .banner {    
@@ -35,3 +38,21 @@ address {
 .booleaner {
     color:rgb(0, 174, 255);
 }
+.highlight {
+    background-color: yellow;
+}
+
+/*Footer */
+
+.monitor {
+   background-image: url(../img/monitor.jpg);
+   height: 200px;
+   width: 200px;
+   color:white;
+}
+.graph {
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width:200px;
+    color:white;
+    }
