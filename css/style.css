@@ -5,3 +5,15 @@
     box-sizing:border-box;
 }
 /* Utilities */
+.container {
+    margin: 0 auto;    
+}
+
+/*Banner*/
+.banner {
+    background-color:#479EFE;
+    margin: 0px;
+    height: 90px; 
+    width: 100px; 
+    background-image: url(../img/pattern.png);
+}
