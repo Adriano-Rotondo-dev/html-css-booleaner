@@ -5,15 +5,15 @@
     box-sizing:border-box;
 }
 /* Utilities */
-.container {
-    margin: 0 auto;    
-}
+
 
 /*Banner*/
 .banner {
+    
     background-color:#479EFE;
-    margin: 0px;
+    margin: 0 auto;
     height: 90px; 
-    width: 100px; 
+    width: 200px; 
     background-image: url(../img/pattern.png);
+    background-repeat:repeat;
 }
