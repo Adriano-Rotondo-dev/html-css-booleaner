@@ -57,7 +57,7 @@ address {
     color: grey;
 }
 .small {
-    size:15px;
+    font-size:15px;
 }
 .booleaner {
     color:rgb(0, 174, 255);
@@ -85,6 +85,5 @@ address {
     background-image: url(../img/graph.jpg);
     height: 200px;
     width: 200px;
-    margin:5px;
-    
+    margin:5px;    
     }
