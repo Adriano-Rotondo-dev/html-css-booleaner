@@ -5,15 +5,20 @@
     box-sizing:border-box;
 }
 /* Utilities */
-
+.container {
+    max-width: 1080px;
+   
+}
 
 /*Banner*/
-.banner {
-    
-    background-color:#479EFE;
-    margin: 0 auto;
-    height: 90px; 
-    width: 200px; 
+.banner {    
+    background-color:#479EFE;    
+    height:90px; 
     background-image: url(../img/pattern.png);
-    background-repeat:repeat;
+    background-size:30%;    
 }
+.banner img {
+    height: 100px;
+}
+
+
